@@ -1,0 +1,11 @@
+1. docker image ls - to get the list of the images
+2. docker image ls -a - to get the list of the images which are inactive
+3. docker container ls - to get the list of the container
+4. docker container ls -a - to get the list of the containers which are inactive
+5. docker ps -  -- to get the list of the containers
+6. docker ps  -a - - to get the list of the containers which are inactive
+7. docker logs conatinerId - will get the logs for that container 
+8. docker build -t username/docker-image-name:v1.0 .  - Will buidl the docker image
+9. docker run -p 4001:8080 username/docker-image-name - will create container using your image
+10. docker exec -it containerId /bin/bash
+
